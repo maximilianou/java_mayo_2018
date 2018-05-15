@@ -28,9 +28,17 @@ public class TestDiagnostico {
         enfEly.setCodigoUnico("EXP111120180515");
         System.out.println("Codigo Unico: " + enfEly.getCodigoUnico());
 
-        enfTamy.setPaciente("Tamara");
-        enfNaty.setPaciente("Natalia");
-        enfEly.setPaciente("Elizabeth");
+        // caso de test,  ejercicio
+        Paciente tamy = new Paciente();
+        tamy.setNombre("Tamara");
+        Paciente naty = new Paciente();
+        naty.setNombre("Natalia");
+        Paciente ely = new Paciente();
+        ely.setNombre("Elizabeth");
+//        ely.nombre = "Robeto";
+        enfTamy.setPaciente(tamy);
+        enfNaty.setPaciente(naty);
+        enfEly.setPaciente(ely);
 
         System.out.println("" + enfTamy);
         System.out.println("" + enfNaty);
@@ -48,6 +56,7 @@ public class TestDiagnostico {
             System.out.println("Verificate Esto: " + e.getMessage());
         }
         System.out.println("2. --------------");
+        
         System.out.println("3. --------------");
         System.out.println("4. --------------");
         System.out.println("5. --------------");

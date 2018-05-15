@@ -6,7 +6,7 @@ class Diagnostico  {
 
     // atributos
     private String codigoUnico;
-    private String paciente;
+    private Paciente paciente;
 
     // metodo, polimorfismo por redefinicion
     @Override
@@ -14,7 +14,6 @@ class Diagnostico  {
         return "" + getCodigoUnico() + "::" + getPaciente() ;
     }
     // Encapsulamimento
-
     public String getCodigoUnico() {
         return codigoUnico;
     }
@@ -25,12 +24,14 @@ class Diagnostico  {
         this.codigoUnico = codigoUnico;
     }
 
-    public String getPaciente() {
+    public Paciente getPaciente() {
         return paciente;
     }
-    public void setPaciente(String paciente) {
+
+    public void setPaciente(Paciente paciente) {
         this.paciente = paciente;
     }
+
     
 
     
