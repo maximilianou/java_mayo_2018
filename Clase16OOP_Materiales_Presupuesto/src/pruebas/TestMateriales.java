@@ -32,6 +32,8 @@ public class TestMateriales {
 
         System.out.println("2. --------------");
         Material cola = new MaterialPorLitro();
+//        Material cola2 = new Material();
+        
         cola.setNombre("Cola");
         Material cemento = new MaterialPorKilo();
         cemento.setNombre("Cemento");

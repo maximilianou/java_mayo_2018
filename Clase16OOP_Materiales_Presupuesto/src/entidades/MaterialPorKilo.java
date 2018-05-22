@@ -4,10 +4,8 @@ public class MaterialPorKilo extends Material {
 
     @Override
     public String toString() {
-        return "Por Kilo: " + getNombre(); 
+        return "Por Kilo: " + getNombre() + " : "+ getPrecio(); 
     }
-
-
 
     
 }

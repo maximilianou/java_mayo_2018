@@ -4,7 +4,7 @@ public class MaterialPorLitro extends Material{
 
     @Override
     public String toString() {
-        return "Por Litro: " + getNombre(); 
+        return "Por Litro: " + getNombre() + " : " + getPrecio(); 
     }
     
 }
